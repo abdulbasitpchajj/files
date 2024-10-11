@@ -1,0 +1,46 @@
+body {
+  background-color: beige;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  /* color: black; */
+  align-items: center;
+  justify-content: center;
+  background-image:url(johann-siemens-EPy0gBJzzZU-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+
+h1 {
+  font-size: 36px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-bottom: 20px;
+  color: #160f14;
+  
+}
+h3{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  color: #27021c;
+} 
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #cec1c1;
+  border-radius: 5px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #c4dbf1;
+  color: #473030;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
