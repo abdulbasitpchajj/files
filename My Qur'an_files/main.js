@@ -1,3 +1,15 @@
+function showInstructions() {
+  const customAlert = document.getElementById('customAlert');
+  customAlert.style.display = 'block';  
+  
+  
+  setTimeout(function() {
+    customAlert.style.display = 'none';  
+  }, 2000);
+}
+
+
+
 const textArea = document.getElementById('textArea')
 //const english = document.getElementById('english')
 const search = document.getElementById('search')
@@ -47,4 +59,3 @@ function getQuranAPI() {
 
 }
 
-//alert(`enter [1 3 4]  "1"  there are 2 reciters[1 or 2] , "3"  for any chapter or surah and  "4"  for the chapter's verse or ayah `)
